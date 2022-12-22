@@ -16,6 +16,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
